@@ -1,0 +1,49 @@
+h1{
+    padding-top: 3rem;
+    padding-bottom: 1em;
+}
+
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=submit], input[type=reset]{
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    height: 3em;
+    width: 7em;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
